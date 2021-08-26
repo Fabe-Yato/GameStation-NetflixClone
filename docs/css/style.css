@@ -252,11 +252,11 @@ header nav a:hover{
         background-position-x: 35%;
     }
     header nav a{
-        font-size: .8rem;
+        font-size: .6rem;
         width: 80%;
     }
     header nav a:hover{
-        font-size: .8rem;
+        font-size: .6rem;
         background-color: #03020300;
         padding: 0.7rem 0.7rem 0.7rem;
         transition: 800ms;
@@ -271,12 +271,12 @@ header nav a:hover{
     }
     .descricao-celular{
         margin-top: -50%;
-        margin-left: 5%;
+        margin-left: 4%;
         display: block;
     }
     .container-botoes{
         margin-top: 15%;
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .segundo-menu-principal {
         position: absolute;
