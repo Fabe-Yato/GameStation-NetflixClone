@@ -1,2 +1,3 @@
-# GameStation-NetflixClone
-Plataforma de jogos com sua interface parecida com a Netflix
+# 🕹️ GameStation-NetflixClone
+##Interface inspirada na Netflix para streamming de jogos
+Projeto desenvolvido em HTML, CSS e JS e também uma biblioteca Jquery, mais precisamente Owl Carousel
