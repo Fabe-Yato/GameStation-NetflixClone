@@ -281,7 +281,7 @@ header nav a:hover{
     .segundo-menu-principal {
         position: absolute;
         width: 70%;
-        margin-top: 380%;
+        margin-top: 375%;
         margin-left: 30%;
         border-top: 2px solid white;
     }
@@ -304,7 +304,7 @@ header nav a:hover{
     .menu-pesquisa{
         position: absolute;
         width: 50%;
-        margin-top: 380%;
+        margin-top: 375%;
         margin-left: -5%;
         border-top: 2px solid white;
     }
