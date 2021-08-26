@@ -246,14 +246,14 @@ header nav a:hover{
 
 @media (max-width: 720px){
     .container h2{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .jogo-principal{
         background-position-x: 35%;
     }
     header nav a{
         font-size: 1rem;
-        width: 50%;
+        width: 70%;
     }
     header nav a:hover{
         font-size: 1rem;
@@ -262,7 +262,7 @@ header nav a:hover{
         transition: 800ms;
     }
     .logo-tlou{
-        width: 50%;
+        width: 60%;
         margin-top: -5%;
         margin-left: 25%;
     }
@@ -270,17 +270,17 @@ header nav a:hover{
         visibility: hidden;
     }
     .descricao-celular{
-        margin-top: -25%;
+        margin-top: -30%;
         display: block;
     }
     .container-botoes{
         margin-top: 15%;
-        margin-left: 6%;
+        margin-left: 3%;
     }
     .segundo-menu-principal {
         position: absolute;
         width: 70%;
-        margin-top: 300%;
+        margin-top: 350%;
         margin-left: 30%;
         border-top: 2px solid white;
     }
@@ -302,7 +302,7 @@ header nav a:hover{
     .menu-pesquisa{
         position: absolute;
         width: 50%;
-        margin-top: 300%;
+        margin-top: 350%;
         margin-left: -5%;
         border-top: 2px solid white;
     }
