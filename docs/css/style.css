@@ -252,35 +252,35 @@ header nav a:hover{
         background-position-x: 35%;
     }
     header nav a{
-        font-size: 1rem;
+        font-size: .9rem;
         width: 70%;
     }
     header nav a:hover{
-        font-size: 1rem;
+        font-size: .9rem;
         background-color: #03020300;
         padding: 0.7rem 0.7rem 0.7rem;
         transition: 800ms;
     }
     .logo-tlou{
-        width: 60%;
-        margin-top: -5%;
+        width: 70%;
+        margin-top: 5%;
         margin-left: 25%;
     }
     .jogo-principal .descricao{
         visibility: hidden;
     }
     .descricao-celular{
-        margin-top: -30%;
+        margin-top: -45%;
         display: block;
     }
     .container-botoes{
         margin-top: 15%;
-        margin-left: 3%;
+     
     }
     .segundo-menu-principal {
         position: absolute;
         width: 70%;
-        margin-top: 350%;
+        margin-top: 380%;
         margin-left: 30%;
         border-top: 2px solid white;
     }
@@ -293,6 +293,7 @@ header nav a:hover{
     }
     .segundo-menu-principal .pesquisa{
         width: 10%;
+        margin-left:5%;
     }
     .segundo-menu-principal .controller{
         display: block;
@@ -302,7 +303,7 @@ header nav a:hover{
     .menu-pesquisa{
         position: absolute;
         width: 50%;
-        margin-top: 350%;
+        margin-top: 380%;
         margin-left: -5%;
         border-top: 2px solid white;
     }
