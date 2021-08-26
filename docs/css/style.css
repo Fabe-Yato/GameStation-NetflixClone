@@ -246,10 +246,10 @@ header nav a:hover{
 
 @media (max-width: 720px){
     .container h2{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     .jogo-principal{
-        background-position-x: 40%;
+        background-position-x: 55%;
     }
     header nav a{
         font-size: .7rem;
@@ -276,6 +276,7 @@ header nav a:hover{
     }
     .container-botoes{
         margin-top: 15%;
+        margin-left: 0.5%;
     }
     .segundo-menu-principal {
         position: absolute;
