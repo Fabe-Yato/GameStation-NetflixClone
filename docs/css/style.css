@@ -252,11 +252,11 @@ header nav a:hover{
         background-position-x: 55%;
     }
     header nav a{
-        font-size: .7rem;
+        font-size: .6rem;
         width: 80%;
     }
     header nav a:hover{
-        font-size: .7rem;
+        font-size: .6rem;
         background-color: #03020300;
         padding: 0.7rem 0.7rem 0.7rem;
         transition: 800ms;
@@ -276,7 +276,7 @@ header nav a:hover{
     }
     .container-botoes{
         margin-top: 15%;
-        margin-left: 0.5%;
+        margin-left: 0.4%;
     }
     .segundo-menu-principal {
         position: absolute;
