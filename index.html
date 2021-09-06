@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMESTATION - Home</title>
+    <!-- importação do css externo -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- importação de fonte de tetxo -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/controller.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+
+    <!-- Owl css -->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- cabeçalho da página ou menu -->
+    <header>
+        <!-- logo da gameflix -->
+        <div class="container">
+            <h2>GAMESTATION</h2>
+        </div>
+        <!-- links de navegação do menu -->
+        <nav class="menu-principal">
+             <a href="#">Inicio</a>
+             <a href="#">
+                <i class="fab fa-playstation"></i>
+                 Playstation
+             </a>
+             <a href="#">
+                <i class="fab fa-xbox"></i>
+                Xbox
+             </a>
+        </nav>
+        <div class="menu-pesquisa"> 
+            <input class="search-box" placeholder="Pesquise..." type="search">
+            
+        </div>
+        <div class="segundo-menu-principal">
+           <img class="pesquisa" src="img/lupa-branca-png.png" alt="lupa">
+           <img class="controller" src="img/controller.png" alt="controller">
+            <img class="perfil" src="img/kratos-icon.jpg" alt="kratos">
+            <img class="dropdown" src="img/dropdown-icon.png" alt="dropdown icon">
+        </div>
+       
+    </header>
+    <!-- começo do conteúdo principal -->
+    <main>
+        <!-- div com todo o conteúdo principal --> 
+        <div class="perfil-config">
+            <div class="image-menu-dropdown">
+                <img id="icone-menu-dropdown" src="img/kratos-icon.jpg" alt="kratos">
+                <img src="img/trocar-icon.png" alt="trocar">
+                <img src="img/box-plus-1.png" alt="plus">
+                <img src="img/config-icon.png" alt="config">
+            </div>
+            <div class="navegação-menu-dropdown">
+                <p>Kratos</p>
+                <p id="linha-separar">Trocar foto</p>
+                <p>Trocar perfil</p>
+                <p>Configurações</p>
+            </div>
+        </div>
+        <div class="jogo-principal">
+            <!-- caixa com uma parte do conteúdo principal -->
+            <div class="container">
+                <img class="logo-tlou" src="img/the-last-of-us-part2-logo.png" alt="logo tlou2">
+                <p class="descricao">Um fantasma do passado reaparece para o acerto de contas. <br> Após o grande trauma, Ellie e Dina seguem para Seattle  em busca <br> de vingança a todo custo, contra o grupo de jovens que deram<br> inicio ao seu sofrimento.</p>
+                
+                <div class="descricao-celular">
+                    <p class="descricao2">Um fantasma do passado reaparece para o acerto de contas. Após o grande trauma, Ellie e Dina seguem para Seattle  em busca de vingança a todo custo, contra o grupo de jovens que deram inicio ao seu sofrimento.</p>
+                </div>
+                <!-- div que contém os dois botões -->
+                <div class="container-botoes">
+                    <button role="button" class="botoes">
+                        <i class="fas fa-play"></i>
+                        JOGAR AGORA
+                    </button>
+                    <button role="button" class="botoes">
+                        <i class="fas fa-plus"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-jogos">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/the-last-of-us-2-poster.jpg" alt="tlou2 poster">
+            </div>
+            <div class="item">
+
+                <img src="img/resident-evil8-poster.jpg" alt="RE8 poster">
+
+            </div>
+            <div class="item">
+
+                <img src="img/red-dead-redemption-2-poster.jpg" alt="rdr2 poster">
+            </div>
+            <div class="item">
+                <img src="img/sekiro-poster.jpg" alt="sekiro poster">
+            </div>
+            <div class="item">
+                <img src="img/Outlast2-poster.png" alt="outlast poster">
+            </div>
+            <div class="item">
+                <img src="img/star-wars-jedi-fallen-order-poster.jpg" alt="star wars poster">
+            </div>
+            <div class="item">
+                <img src="img/horizon-zero-dawn-poster.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="img/DARK-SOULS-3-poster.jpg" alt="">
+            </div>
+        </div>
+       
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/75032eea7a.js" crossorigin="anonymous"></script>
+     
+    <!-- Owl script -->
+    <script src="js/js/owl/jquery.min.js"></script>
+    <script src="js/js/owl/owl.carousel.min.js"></script>
+    <script src="js/js/owl/main.js"></script>
+</body>
+</html>

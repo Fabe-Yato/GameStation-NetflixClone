@@ -1,0 +1,331 @@
+/* espaço para variáveis do css */
+:root{
+    --azul:#2593fa;
+    --preto: #141414;
+    --preto2: #181114;
+    --cinza: #aaa;
+}
+/* O * serve para selecionar todos os elementos da página  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* formatação do corpo da página */
+body{
+    background-color: var(--preto);
+    color: #fff;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+/* header para a cor do menu principal */
+header{
+    display: flex;
+    align-items: center; 
+    background: linear-gradient(180deg, #030203, #131313);
+}
+/* cores, font family e tamanho de fonte do logo */
+.container h2{
+    color: var(--azul);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.7rem;
+    margin-left: 5%;
+}
+/* formatação dos links do menu */
+header nav{
+    padding-left: 2%;
+    width: 70%;
+}
+header nav a{
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 1.2rem;
+    padding: 1rem 1.4rem 1rem;
+    transition: color 1s;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+/* o hover serve para formatar ações ao passar o mouse em cima do elemento */
+header nav a:hover{
+    color: #fff;
+    background-color: rgb(32, 32, 32);
+    transition: color 1s;
+    font-size: 1.4rem;
+    transition: font-size 800ms;
+}
+/* formatações da segunda barra de navegaçao: pesquisa e perfis */
+.segundo-menu-principal{
+    width: 13%;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+}
+.menu-pesquisa{
+    width: 13%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.menu-pesquisa img{
+    width: 20%;
+}
+.segundo-menu-principal .pesquisa{
+   width: 15%;
+   cursor: pointer;
+}
+.segundo-menu-principal .perfil{
+    width: 37%;
+    padding-left: 10%;
+    cursor: pointer;
+ }
+ .segundo-menu-principal .controller{
+     display: none;
+ }
+.dropdown{
+    width: 12%;
+    padding-left: 6%;
+    transform: rotate(0deg);
+    transition: transform 500ms;
+    cursor: pointer;
+ }
+.dropdownAction{
+    transform: rotate(-180deg);
+    transition: transform 500ms;
+}
+/* configurações do jogo principal */
+
+/* tamanho do logo do jogo */
+.logo-tlou{
+    width: 85%;
+}
+/* formatação do conteúdo principal */
+.jogo-principal{
+    background: linear-gradient(rgba(0,0,0,.40), rgba(0,0,0,.20) 100%), url('../img/Tlous2-image-principal.jpg') no-repeat ; 
+    background-size: cover;
+    background-position-y: 50%;
+    font-size: 1.1rem;
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+/* espaçamento da descrição do THE LAST OF US */
+.jogo-principal .descricao{
+    margin: 10px 0 35px 10px;
+}
+.perfil-config{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    background-color:  rgb(19, 18, 18);
+    margin-left: 80%;
+    padding: 2%;
+    padding-bottom: 5%;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    transition: height 1s;
+}
+.sumir{
+    display: none;
+
+}
+.image-menu-dropdown{
+    width: 40%;
+}
+.image-menu-dropdown img{
+    width: 75%;
+    border: 1px solid rgb(194, 193, 193);
+    border-radius: 8px;
+    margin-top: -5%;
+    padding: 2%;
+    cursor: pointer;
+}
+.navegação-menu-dropdown{
+      padding-right: 19%; 
+}
+.navegação-menu-dropdown p{
+    border-bottom: 3px solid white;
+    width: 150%;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+.container-botoes{
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+.botoes{
+     background-color: rgba(0, 0, 0, .50);
+     border: 1px solid white;
+     color: #fff;
+
+     padding: 10px;
+     font-size: 12px;
+
+     cursor: pointer;
+     transition: .7s ease all;
+}
+.botoes:hover{
+    background-color: rgba(255, 255, 255, .80);
+    color: #000000;
+}
+.search-box{
+    width: 1px;
+    visibility: hidden;
+    transition: 500ms;
+}
+.search-box-open{
+    background-color: #fafafa;
+    width: 145px;
+    height: 25px;
+    border-radius: 5px;
+    
+    visibility: visible;
+    outline: none;
+    transition: 500ms;
+   
+}
+.carrosel-jogos{
+    margin-top: 1%;
+    z-index: 0;
+}
+.controller_logo{
+    display: none;
+}
+.descricao-celular{
+    display: none;
+}
+
+@media (max-width: 950px){
+    header nav a{
+        font-size: 1rem;
+        width: 60%;
+    }
+    header nav a:hover{
+        font-size: 1.1rem;
+    }
+    .segundo-menu-principal{
+        margin-right: 2%;
+    }
+    .segundo-menu-principal .perfil{
+        width: 65%;
+    }
+    .dropdown{
+        width: 18%;
+    }
+    .segundo-menu-principal .pesquisa{
+        width: 30%;
+    }
+    .menu-pesquisa{
+        margin-right: 7%;
+    }
+    .logo-tlou{
+        width: 67%;
+    }
+    .container-botoes{
+        margin-left: -8%;
+    }
+    .perfil-config{
+        width: 35%;
+        height: 30%;
+        margin-left: 65%;
+    }
+    .perfil-config img{
+        width: 65%;
+        margin-left: 5%;
+    }
+    .navegação-menu-dropdown p{
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 720px){
+    .container h2{
+        font-size: 1.8rem;
+    }
+    .jogo-principal{
+        background-position-x: 35%;
+    }
+    header nav a{
+        font-size: 1rem;
+        width: 50%;
+    }
+    header nav a:hover{
+        font-size: 1rem;
+        background-color: #03020300;
+        padding: 0.7rem 0.7rem 0.7rem;
+        transition: 800ms;
+    }
+    .logo-tlou{
+        width: 50%;
+        margin-top: -5%;
+        margin-left: 25%;
+    }
+    .jogo-principal .descricao{
+        visibility: hidden;
+    }
+    .descricao-celular{
+        margin-top: -25%;
+        display: block;
+    }
+    .container-botoes{
+        margin-top: 15%;
+        margin-left: 6%;
+    }
+    .segundo-menu-principal {
+        position: absolute;
+        width: 70%;
+        margin-top: 300%;
+        margin-left: 30%;
+        border-top: 2px solid white;
+    }
+    .segundo-menu-principal .perfil{
+        width: 22%;
+        margin-left: 13%;
+    }
+    .dropdown{
+        width: 10%;
+    }
+    .segundo-menu-principal .pesquisa{
+        width: 10%;
+    }
+    .segundo-menu-principal .controller{
+        display: block;
+        width: 10%;
+        margin-left: 30%
+    }
+    .menu-pesquisa{
+        position: absolute;
+        width: 50%;
+        margin-top: 300%;
+        margin-left: -5%;
+        border-top: 2px solid white;
+    }
+    .search-box-open{
+        width: 120px;
+        height: 25px;
+        margin-left: 15%;
+    }
+    .controller_logo{
+        display: block;
+    }
+    
+    .perfil-config{
+        position: absolute;
+        width: 50%;
+        height: 25%;
+        margin-top: 105%;
+        margin-left: 50%;
+        font-size: 1.2rem;
+        display: none;
+    }
+    .perfil-config img{
+        width: 55%;
+        margin-left: 5%;
+    }
+}
